@@ -14,7 +14,6 @@
         fadedTextBlocks[i].childNodes[j].style.top = randomTopDistValue + "px";
         fadedTextBlocks[i].childNodes[j].style.opacity = 0;
         // fadedTextBlocks[i].childNodes[j].style.transform = "rotate(" + randomRotationValue + "deg)";
-        console.log(fadedTextBlocks[i].childNodes[j].style.transform);
         fadedTextBlocks[i].childNodes[j].style.transition = 'top 1s, opacity 1s, transform 1s';
       }
     }
